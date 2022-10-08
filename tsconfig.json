@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    //"outFile": "./dist/index.js",
+    "outDir": "dist",
+    "lib": ["es2016"],
+    "sourceMap": true,
+    "esModuleInterop": true,
+  },
+  "include": [
+    "src/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    "**/*.spec.ts"
+  ]
+}

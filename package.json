@@ -1,0 +1,31 @@
+{
+  "name": "ts-package",
+  "version": "1.0.0",
+  "description": "TS Package Demo",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lalmat/ts-package-demo.git"
+  },
+  "keywords": [
+    "TypeScript",
+    "Package",
+    "NPM"
+  ],
+  "author": "Mathieu LALLEMAND",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lalmat/ts-package-demo/issues"
+  },
+  "homepage": "https://github.com/lalmat/ts-package-demo#readme",
+  "devDependencies": {
+    "@types/jest": "^29.1.2",
+    "jest": "^29.1.2",
+    "ts-jest": "^29.0.3",
+    "typescript": "^4.8.4"
+  }
+}
